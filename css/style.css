@@ -1,0 +1,178 @@
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ib {
+    display: inline-block;
+}
+
+div::before,
+div1::after {
+    white-space-collapse: collapse;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+#logo {
+    width: 25%;
+    display: inline-block;
+    border: 1px solid blue;
+}
+
+#logo img {
+    border: 1px solid red;
+}
+
+#menu {
+    width: 50%;
+    display: inline-block;
+    border: 1px solid blue;
+}
+
+#contact {
+    width: 23%;
+    display: inline-block;
+    border: 1px solid blue;
+    text-align: right;
+    /* float: right; */
+}
+
+#contact a {
+    color: #ff680a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #3f4e5d;
+}
+
+#mainSection {
+    background-color: #3f4e5d;
+}
+
+#mainSectionContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#categories {
+    background-color: #ff8e30;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    /* background-image:  */
+    color: #fff;
+    width: 270px;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#search {
+    background-color: rgba(200, 200, 200, 1);
+    border-radius: 5px;
+    /* opacity: 0.6; */
+    padding: 8px 10px 8px 10px;
+    color: #fff;
+    margin-left: 55px;
+}
+
+#search input {
+    border: none;
+    background-color: rgba(200, 200, 200, 1);
+    border: 0px solid;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#search input:focus {
+    outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+#personalInfo {
+    float: right;
+    line-height: 50px;
+}
+
+.registration {
+    color: #a1a8b2;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    margin-right: 50px;
+}
+
+.registration a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.registration a:hover {
+    color: #ff680a;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+
+/*
+.testa {
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.testa a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.testa:hover {
+    background-color: grey;
+} */
+
+footer {
+    background-color: #3f4e5d;
+}
+
+#footerContainer {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid pink;
+}
+
+footer #footerContainer div {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid red;
+}
